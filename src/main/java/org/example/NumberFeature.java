@@ -26,5 +26,6 @@ public class NumberFeature {
         }while(inputNumber != 0);
 
         System.out.println(result);
+        
     }
 }
