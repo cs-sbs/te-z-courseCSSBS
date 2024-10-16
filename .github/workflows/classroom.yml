@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: TC01
         setup-command: ''
-        command: "./calculate.sh"
+        command: bash ./calculate.sh
         input: '092234'
         expected-output: '24'
         comparison-method: exact
@@ -31,7 +31,7 @@ jobs:
       with:
         test-name: TC02
         setup-command: ''
-        command: "./calculate.sh"
+        command: bash ./calculate.sh
         input: '342315'
         expected-output: '13'
         comparison-method: exact
@@ -43,7 +43,7 @@ jobs:
       with:
         test-name: TC03
         setup-command: ''
-        command: "./calculate.sh"
+        command: bash ./calculate.sh
         input: '1212120'
         expected-output: '126'
         comparison-method: exact
@@ -55,7 +55,7 @@ jobs:
       with:
         test-name: TC04
         setup-command: ''
-        command: "./calculate.sh"
+        command: bash ./calculate.sh
         input: '100000'
         expected-output: '10'
         comparison-method: exact
@@ -67,7 +67,7 @@ jobs:
       with:
         test-name: TC05
         setup-command: ''
-        command: "./calculate.sh"
+        command: bash ./calculate.sh
         input: '314159'
         expected-output: '29'
         comparison-method: exact
