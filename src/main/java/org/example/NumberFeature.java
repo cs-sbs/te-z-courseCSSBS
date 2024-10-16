@@ -11,7 +11,7 @@ public class NumberFeature {
         // 你的代码逻辑
         int count=0;//二进制此时的位数，当前为0
         int count1 = 1;//数字当前的位数
-        int n;//余数
+        int n;
 
         do{
             n = inputNumber % 10;
