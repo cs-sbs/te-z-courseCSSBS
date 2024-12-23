@@ -25,6 +25,8 @@ public class NumberFeature {
             inputNumber = inputNumber / 10;
         }while(inputNumber != 0);
 
+        result = inputNumber;
+
         System.out.println(result);
         
     }
